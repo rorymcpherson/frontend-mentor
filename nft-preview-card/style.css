@@ -1,0 +1,120 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* Styles */
+
+:root {
+    --text-color: hsl(215, 51%, 70%);
+    --text-white: hsl(0, 0%, 100%);
+    --highlight-color: hsl(178, 100%, 50%);
+    --dark-background: hsl(217, 54%, 11%);
+    --med-background: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--dark-background);
+}
+
+.card {
+    max-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    margin: auto;
+    background-color: var(--med-background);
+    border-radius: 16px;
+    box-shadow: 0 24px 6px 12px rgba(0, 0, 0, 0.05), 0 24px 24px 36px rgba(0, 0, 0, 0.1);
+    cursor: default;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+}
+
+.card-content .default-img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.card-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-white);
+    width: fit-content;
+    cursor: pointer;
+}
+
+.card-content h3:hover {
+    color: var(--highlight-color);
+}
+
+.card-content p {
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.nft-details {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--line-color);
+    font-size: 1rem;
+}
+
+.nft-details .value {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--highlight-color);
+    font-weight: 600;
+}
+
+.nft-details .time {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.creator img {
+    max-width: 32px;
+    border: 1px solid var(--text-white);
+    border-radius: 50%;
+}
+
+.creator p {
+    color: var(--text-color);
+}
+
+.creator span {
+    color: var(--text-white);
+    cursor: pointer;
+}
+
+.creator span:hover {
+    color: var(--highlight-color);
+}
