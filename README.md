@@ -4,4 +4,4 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 View my live projects here: https://rorymcpherson.github.io/frontend-mentor/
 
-Find me on Frontend Mentor [@rorymcpherson](https://www.frontendmentor.io/profile/rorymcpherson).
+Find me on Frontend Mentor at [@rorymcpherson](https://www.frontendmentor.io/profile/rorymcpherson)
