@@ -1,0 +1,87 @@
+/* || General */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --accent-color: hsl(75, 94%, 57%);
+    --white-color: hsl(0, 0%, 100%);
+    --grey-color: hsl(0, 0%, 20%);
+    --dark-grey-color: hsl(0, 0%, 12%);
+    --black-color: hsl(0, 0%, 8%);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    color: var(--white-color);
+    font-size: 0.875rem; /* 14px */
+    font-family: 'Inter', 'sans-serif';
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/* || Card Layout */
+
+.socials-card {
+    width: 307px;
+    height: 489px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--dark-grey-color);
+    border-radius: 10px;
+}
+
+
+/* || Profile Details */
+
+.photo {
+    max-width: 5.72em; /* 70px */
+    border-radius: 50%;
+    margin: 32px auto 10px;
+}
+
+.name {
+    font-size: 1.56em;
+    font-weight: 600;
+    margin-bottom: -4px;
+}
+
+.location {
+    color: var(--accent-color);
+    font-size: 0.93em;
+    font-weight: 600;
+}
+
+.about {
+    font-size: 0.8rem;
+    margin-bottom: 1.2em;
+}
+
+/* || Social Links */
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.social-links a {
+    color: var(--white-color);
+    font-size: 0.9em;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--grey-color);
+    border-radius: 6px;
+    padding: 1.05em;
+    margin: 0.59em 3em;
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--dark-grey-color);
+    background-color: var(--accent-color);
+}
