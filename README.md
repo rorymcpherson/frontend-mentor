@@ -32,11 +32,14 @@ Here are challenges I have completed with links for each solution and code repos
 6. Recipe card
     - [Solution](https://rorymcpherson.github.io/frontend-mentor/recipe-page/index.html)
     - [Code](https://github.com/rorymcpherson/frontend-mentor/tree/main/recipe-page)
+7. Social links profile
+    - [Solution](https://rorymcpherson.github.io/frontend-mentor/social-links-profile/index.html)
+    - [Code](https://github.com/rorymcpherson/frontend-mentor/tree/main/social-links-profile)
 
 ## What I've Learned
 
 - HTML5
 - CSS3
 - Semantic elements and responsive design
-- CSS Flexbox and Grid
+- CSS Flexbox
 - Version control workflows
